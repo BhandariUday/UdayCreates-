@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="UdayCreates — learn, connect, create and grow.">
+<title>UdayCreates — Creator Community & Creative Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="announcement">CREATORS BUILD BETTER TOGETHER <span>✳</span> YOUR NEXT LEVEL STARTS HERE</div>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="UdayCreates home"><span class="brand-mark">U✳</span><span>uday<span class="brand-accent">creates</span></span></a>
+  <button class="mobile-menu" id="menuToggle" aria-label="Toggle navigation">☰</button>
+  <nav id="navLinks">
+    <a href="#learn">Learn</a><a href="#community">Community</a><a href="#freelancers">Freelancers</a><a href="#studio">Our Studio</a><a href="#pricing">Membership</a>
+  </nav>
+  <div class="header-actions"><button class="btn btn-quiet" data-open-auth="login">Log in</button><button class="btn btn-dark" data-open-auth="signup">Join free <span>↗</span></button></div>
+</header>
+<main>
+<section class="hero section" id="home">
+  <div class="hero-copy">
+    <div class="eyebrow"><span class="live-dot"></span> A CREATIVE COMMUNITY FOR DOERS</div>
+    <h1>Make good work.<br><span class="outlined">Find your people.</span><br><span class="highlight">Grow for real.</span></h1>
+    <p class="hero-text">Learn editing, level up your creative career, meet ambitious freelancers and get your next project moving — all in one place.</p>
+    <div class="hero-actions"><button class="btn btn-dark btn-large" data-open-auth="signup">Join the community <span>↗</span></button><a class="btn btn-outline btn-large" href="#studio">Hire our studio <span>↗</span></a></div>
+    <div class="social-proof"><div class="avatar-stack"><span>U</span><span>M</span><span>A</span><span>+</span></div><div><strong>Your next creative chapter starts here.</strong><small>For editors, creators, freelancers & brands</small></div></div>
+  </div>
+  <div class="hero-art">
+    <div class="art-grid"></div><div class="sticker sticker-yellow">MAKE<br>STUFF<span>✳</span></div>
+    <div class="poster-card"><div class="poster-top"><span>UC / CREATIVE CLUB</span><span>VOL. 001</span></div><div class="poster-graphic"><div class="sun"></div><div class="poster-word">CREATE<br><em>MORE.</em></div><div class="squiggle">〰</div></div><div class="poster-bottom"><span>IDEAS INTO IMPACT</span><span>✦ ✦ ✦</span></div></div>
+    <div class="floating-card float-top"><span class="mini-icon purple">▶</span><div><strong>Learn by doing</strong><small>Skills that ship</small></div></div>
+    <div class="floating-card float-bottom"><span class="mini-icon orange">↗</span><div><strong>Find your next collab</strong><small>People who get it</small></div></div>
+    <div class="starburst">GOOD<br>VIBES<br>ONLY</div>
+  </div>
+</section>
+<section class="ticker" aria-label="What we do"><div>VIDEO EDITING <span>✳</span> MOTION DESIGN <span>✳</span> SOCIAL GROWTH <span>✳</span> FREELANCE LIFE <span>✳</span> CREATIVE COMMUNITY <span>✳</span> VIDEO EDITING <span>✳</span> MOTION DESIGN <span>✳</span></div></section>
+<section class="section intro" id="learn">
+  <div class="section-heading"><div><div class="eyebrow">YOUR CREATIVE TOOLKIT</div><h2>Learn a skill.<br><span class="highlight">Build a career.</span></h2></div><p>Practical lessons and honest advice to help you make better work, find clients and grow on your own terms.</p></div>
+  <div class="feature-grid">
+    <article class="feature-card feature-lilac"><div class="card-icon">▶</div><div class="card-number">01 / LEARN</div><h3>Edit like<br>you mean it.</h3><p>Reels, Shorts, YouTube storytelling, pacing, sound, colour and workflow breakdowns.</p><a href="#pricing" class="text-link">Explore learning <span>↗</span></a><div class="decor-play">▶</div></article>
+    <article class="feature-card feature-yellow"><div class="card-icon">↗</div><div class="card-number">02 / GROW</div><h3>Turn skills<br>into income.</h3><p>Portfolio building, client communication, pricing, proposals and professional habits.</p><a href="#pricing" class="text-link">Build your career <span>↗</span></a><div class="decor-spark">✳</div></article>
+    <article class="feature-card feature-mint"><div class="card-icon">◎</div><div class="card-number">03 / CONNECT</div><h3>Better work<br>takes a team.</h3><p>Share work in progress, get feedback, find collaborators and meet your next client.</p><a href="#community" class="text-link">Meet the community <span>↗</span></a><div class="decor-circle"></div></article>
+  </div>
+</section>
+<section class="section community-section" id="community">
+  <div class="section-heading"><div><div class="eyebrow">THE COMMUNITY ROOM</div><h2>Make progress<br><span class="highlight">out loud.</span></h2></div><p>Ask questions, share your latest work and learn from people building the same kind of life.</p></div>
+  <div class="community-layout">
+    <div class="feed-panel">
+      <div class="panel-header"><div><strong>Community feed</strong><small>Ideas, feedback & wins</small></div><span class="pill pill-green">MEMBER SPACE</span></div>
+      <form id="postForm" class="post-composer"><div class="user-avatar">Y</div><input id="postInput" maxlength="400" placeholder="Share a win, ask for feedback, or start a discussion…" required><button class="btn btn-dark" type="submit">Post ↗</button></form>
+      <div id="feedPosts" class="feed-posts">
+        <article class="feed-post"><div class="post-avatar avatar-purple">RK</div><div class="post-body"><div class="post-meta"><strong>Riya K.</strong><span>Video editor · 2h ago</span></div><p>What’s one editing habit that improved your storytelling the most? Mine was cutting every shot that didn’t move the story forward.</p><div class="post-tags"><span>#editing</span><span>#feedback</span></div><button class="like-button" data-like>♡ <span>12</span> helpful</button></div></article>
+        <article class="feed-post"><div class="post-avatar avatar-orange">AS</div><div class="post-body"><div class="post-meta"><strong>Arjun S.</strong><span>Motion designer · 5h ago</span></div><p>Finished a new motion study this week. Sharing unfinished work feels scary, but the feedback makes the next version better.</p><div class="post-tags"><span>#motiondesign</span><span>#weeklywin</span></div><button class="like-button" data-like>♡ <span>8</span> helpful</button></div></article>
+        <div id="emptyPosts" class="empty-state hidden">You're first! Start the conversation.</div>
+      </div>
+      <div class="feed-footer"><span>Good work grows when it’s shared.</span><button class="text-link" data-open-auth="signup">Join to participate ↗</button></div>
+    </div>
+    <aside class="community-aside"><div class="aside-note"><span class="aside-symbol">✳</span><div class="eyebrow">COMMUNITY VALUES</div><h3>Make space<br>for the process.</h3><ul><li>Share generously</li><li>Give useful feedback</li><li>Respect every creative</li><li>Celebrate small wins</li></ul></div><div class="prompt-card"><span>THIS WEEK’S PROMPT</span><p>Show us one thing you made — and one thing you learned.</p><button class="btn btn-outline" data-open-auth="signup">Take part ↗</button></div></aside>
+  </div>
+</section>
+<section class="section freelancer-section" id="freelancers">
+  <div class="section-heading"><div><div class="eyebrow">THE PEOPLE BEHIND THE PIXELS</div><h2>Find your next<br><span class="highlight">creative partner.</span></h2></div><p>Browse example profiles and find the right kind of talent for your next idea. Profiles below are demo content for this prototype.</p></div>
+  <div class="filters"><div class="filter-pills" id="talentFilters"><button class="filter active" data-filter="All">All talent</button><button class="filter" data-filter="Video Editor">Video editors</button><button class="filter" data-filter="Motion Designer">Motion designers</button><button class="filter" data-filter="Social Media">Social media</button><button class="filter" data-filter="3D Artist">3D artists</button></div><span class="result-count" id="talentCount">4 profiles</span></div>
+  <div class="talent-grid" id="talentGrid">
+    <article class="talent-card" data-role="Video Editor"><div class="talent-cover cover-one"><span>EDIT / STORY / SOUND</span><div class="cover-shape">▶</div></div><div class="talent-info"><div class="talent-person"><div class="talent-avatar purple-bg">RK</div><div><h3>Riya Kapoor</h3><p>Video Editor</p></div><span class="availability">● Available</span></div><p class="talent-bio">Short-form storytelling, YouTube edits and creator-led brands.</p><div class="skill-tags"><span>Premiere Pro</span><span>Reels</span><span>YouTube</span></div><div class="talent-bottom"><span>Portfolio-led projects</span><button class="btn btn-dark btn-small" data-project="Riya Kapoor">Discuss project ↗</button></div></div></article>
+    <article class="talent-card" data-role="Motion Designer"><div class="talent-cover cover-two"><span>MOVE WITH MEANING</span><div class="cover-shape">✳</div></div><div class="talent-info"><div class="talent-person"><div class="talent-avatar orange-bg">AS</div><div><h3>Arjun Shah</h3><p>Motion Designer</p></div><span class="availability">● Available</span></div><p class="talent-bio">Punchy motion graphics, explainers and social campaign visuals.</p><div class="skill-tags"><span>After Effects</span><span>2D</span><span>Motion</span></div><div class="talent-bottom"><span>Portfolio-led projects</span><button class="btn btn-dark btn-small" data-project="Arjun Shah">Discuss project ↗</button></div></div></article>
+    <article class="talent-card" data-role="Social Media"><div class="talent-cover cover-three"><span>PLAN / POST / GROW</span><div class="cover-shape">↗</div></div><div class="talent-info"><div class="talent-person"><div class="talent-avatar green-bg">MN</div><div><h3>Meera Nair</h3><p>Social Media</p></div><span class="availability">● Available</span></div><p class="talent-bio">Content calendars, creative strategy and community-first growth.</p><div class="skill-tags"><span>Strategy</span><span>Instagram</span><span>Planning</span></div><div class="talent-bottom"><span>Portfolio-led projects</span><button class="btn btn-dark btn-small" data-project="Meera Nair">Discuss project ↗</button></div></div></article>
+    <article class="talent-card" data-role="3D Artist"><div class="talent-cover cover-four"><span>SHAPE NEW WORLDS</span><div class="cover-shape">◈</div></div><div class="talent-info"><div class="talent-person"><div class="talent-avatar blue-bg">DV</div><div><h3>Dev Verma</h3><p>3D Artist</p></div><span class="availability">● Available</span></div><p class="talent-bio">Stylised 3D assets, product visuals and animation-ready scenes.</p><div class="skill-tags"><span>Blender</span><span>3D</span><span>Animation</span></div><div class="talent-bottom"><span>Portfolio-led projects</span><button class="btn btn-dark btn-small" data-project="Dev Verma">Discuss project ↗</button></div></div></article>
+  </div>
+  <p class="demo-disclaimer">Demo profiles shown for layout preview. Replace these with verified freelancer profiles before launch.</p>
+</section>
+<section class="studio-section" id="studio">
+  <div class="studio-inner">
+    <div class="studio-copy"><div class="eyebrow light-eyebrow">WHEN YOU NEED THE WHOLE TEAM</div><h2>Big idea?<br><span>We’ll make it move.</span></h2><p>Skip the juggling. Work directly with UdayCreates for reliable creative delivery — from the first brief to the final export.</p><div class="service-list"><div><span class="service-number">01</span><span><strong>Video editing</strong><small>Reels, Shorts, YouTube & brand films</small></span><span>↗</span></div><div><span class="service-number">02</span><span><strong>2D / 3D animation</strong><small>Motion graphics, explainers & product visuals</small></span><span>↗</span></div><div><span class="service-number">03</span><span><strong>Social media management</strong><small>Content planning, publishing & creative direction</small></span><span>↗</span></div></div><button class="btn btn-yellow btn-large" data-open-project="studio">Tell us about your project ↗</button></div>
+    <div class="studio-visual"><div class="studio-sticker">IDEA<br>→ IMPACT</div><div class="studio-frame"><div class="frame-top"><span>UDAYCREATES / STUDIO</span><span>PLAY YOUR PART</span></div><div class="frame-scene"><div class="scene-circle"></div><div class="scene-block"></div><div class="scene-orb"></div><div class="scene-text">MAKE<br>IT <i>MATTER.</i></div></div><div class="frame-bottom"><span>CREATIVE PARTNERSHIP</span><span>EST. FOR WHAT’S NEXT ✳</span></div></div><div class="studio-spark">✳</div></div>
+  </div>
+</section>
+<section class="section pricing-section" id="pricing">
+  <div class="section-heading"><div><div class="eyebrow">PICK YOUR PACE</div><h2>Start where you are.<br><span class="highlight">Grow from there.</span></h2></div><p>Start free, explore the community and upgrade when you’re ready for deeper learning and resources.</p></div>
+  <div class="pricing-grid">
+    <article class="price-card"><div class="price-label">CURIOUS CREATOR</div><h3>Free</h3><p class="price-desc">Get to know the community.</p><div class="price">₹0 <small>/ forever</small></div><ul><li>✓ Create your account</li><li>✓ Browse freelancer profiles</li><li>✓ Preview public discussions</li><li>✓ Submit project enquiries</li></ul><button class="btn btn-outline full-btn" data-plan="Free">Join for free ↗</button></article>
+    <article class="price-card price-featured"><div class="popular-label">MOST FLEXIBLE ✳</div><div class="price-label">GROWING CREATOR</div><h3>Plus</h3><p class="price-desc">For creators building their craft.</p><div class="price">₹499 <small>/ month*</small></div><ul><li>✓ Member learning library</li><li>✓ Editing workflow breakdowns</li><li>✓ Project files & resource drops</li><li>✓ Community participation</li><li>✓ Career and client-growth sessions</li></ul><button class="btn btn-dark full-btn" data-plan="Plus">Choose Plus ↗</button></article>
+    <article class="price-card"><div class="price-label">SERIOUS ABOUT THE CRAFT</div><h3>Pro</h3><p class="price-desc">For freelancers ready to level up.</p><div class="price">₹999 <small>/ month*</small></div><ul><li>✓ Everything in Plus</li><li>✓ Advanced project breakdowns</li><li>✓ Monthly group feedback session</li><li>✓ Portfolio and pricing workshops</li><li>✓ Early access to new resources</li></ul><button class="btn btn-outline full-btn" data-plan="Pro">Choose Pro ↗</button></article>
+  </div>
+  <p class="pricing-note">*Illustrative pricing for testing. No payment is collected in this prototype. Final plans, entitlements, taxes and billing terms must be configured before launch.</p>
+</section>
+<section class="final-cta"><div class="cta-spark">✳</div><div class="eyebrow">YOUR NEXT CHAPTER IS WAITING</div><h2>Make something<br><span>you’re proud of.</span></h2><p>Build your skills, find your people and turn creative energy into real momentum.</p><button class="btn btn-dark btn-large" data-open-auth="signup">Join UdayCreates ↗</button></section>
+</main>
+<footer class="footer"><a class="brand" href="#home"><span class="brand-mark">U✳</span><span>uday<span class="brand-accent">creates</span></span></a><p>Creative skills. Real connections. Better work.</p><div class="footer-links"><a href="#learn">Learn</a><a href="#community">Community</a><a href="#freelancers">Freelancers</a><a href="#studio">Hire our studio</a></div><small>© <span id="year"></span> UdayCreates. Built for the next generation of creatives.</small></footer>
+
+<div class="modal-backdrop hidden" id="authModal" role="dialog" aria-modal="true" aria-labelledby="authTitle"><div class="modal"><button class="modal-close" data-close-modal aria-label="Close">×</button><div class="modal-kicker">WELCOME TO THE CREATIVE SIDE ✳</div><h2 id="authTitle">Your people are here.</h2><p id="authSubtitle">Create a demo account to explore the experience.</p><div class="auth-tabs"><button class="auth-tab active" data-auth-tab="signup">Sign up</button><button class="auth-tab" data-auth-tab="login">Log in</button></div><form id="authForm"><label>Full name<input name="name" id="authName" placeholder="Your name" autocomplete="name" required></label><label>Email address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required></label><label>Password<input name="password" type="password" minlength="6" placeholder="At least 6 characters" autocomplete="new-password" required></label><button class="btn btn-dark full-btn" id="authSubmit" type="submit">Create demo account ↗</button></form><div class="modal-foot">Prototype only: demo accounts are stored in this browser. Do not use a real password.</div><div id="authMessage" class="form-message hidden" role="status"></div></div></div>
+
+<div class="modal-backdrop hidden" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="projectTitle"><div class="modal modal-wide"><button class="modal-close" data-close-modal aria-label="Close">×</button><div class="modal-kicker">LET’S MAKE SOMETHING GOOD ✳</div><h2 id="projectTitle">Tell us what you’re building.</h2><p>Share a few details and we’ll help define the next step.</p><form id="projectForm" class="project-form"><label>Your name<input name="name" required placeholder="Name"></label><label>Email<input name="email" type="email" required placeholder="you@example.com"></label><label>Project type<select name="type" id="projectType" required><option value="">Choose a service</option><option>Instagram Reels / Shorts</option><option>YouTube video editing</option><option>2D / 3D animation</option><option>Social media management</option><option>Project with a freelancer</option><option>Other creative project</option></select></label><label>Budget range<select name="budget" required><option value="">Select budget</option><option>Under ₹5,000</option><option>₹5,000–₹15,000</option><option>₹15,000–₹50,000</option><option>₹50,000+</option><option>Need help estimating</option></select></label><label class="wide-label">Project brief<textarea name="brief" rows="4" required placeholder="What do you need, what’s the goal, and when do you need it?"></textarea></label><button class="btn btn-dark full-btn wide-label" type="submit">Save project enquiry ↗</button></form><div class="modal-foot">Prototype only: this saves the enquiry locally in your browser, not to a live agency inbox.</div><div id="projectMessage" class="form-message hidden" role="status"></div></div></div>
+<div class="toast hidden" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
